@@ -30,7 +30,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($input_salario)){
         $salario_erro = "Qual o salário do funcionário?";     
     } elseif(!ctype_digit($input_salario)){
-        $salario_erro = 'Please enter a positive integer value.';
+        $salario_erro = 'Utilize apenas números inteiros positivos!';
     } else{
         $salario = $input_salario;
     }
