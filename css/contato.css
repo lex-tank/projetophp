@@ -1,0 +1,209 @@
+ /* Stackoverflow preview fix, please ignore */
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+ 
+
+/**
+{
+	border: 0;
+	margin: 0;
+}
+
+a
+{
+	color: #0e346d;
+	text-decoration: none;
+}
+
+a:hover
+{
+
+	color: #000;
+	cursor: pointer;
+}
+
+body
+{
+	background: #FFF;
+	color: #212121;
+	font-family: Verdana;
+	font-size: 16px;
+	
+}
+
+nav, #principal
+{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	font-size: 20px;
+	margin: 0px;
+	text-align: center;
+	width: 20%
+	vertical-align: top;
+	padding: 2px 10px;
+}
+
+li
+{
+	display:inline-block;
+	padding: 2px 10px;
+	background: gold;
+}
+
+ul
+{
+	list-style: none;
+	margin-top: 10px;
+}
+
+#conteudo
+{
+	margin: 0px;
+	text-align: left;
+	
+	
+}
+
+#principal
+{
+	
+	font-size: 20px;
+	margin: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.config
+{
+	-ms-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	-webkit-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+/*formulários */
+
+/*caixa ao redor das informações*/
+/*fieldset
+{
+	border: .1em solid gold;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form div
+{
+	margin: .5em;
+}
+
+input[type="checkbox"], input[type="radio"], select
+{
+	background: #EEE;
+	cursor: pointer;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="text"]
+{
+	background: #EEE;
+	border-radius: .25em;
+	color: gray;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="date"]:focus , input[type="email"]:focus , input[type="number"]:focus, input[type="text"]:focus
+{
+	background: #C6ECF9;
+}
+
+input[type="email"]:disabled
+{
+	background: transparent;
+	color: #CCC;
+}
+
+input[type="submit"]
+{
+	background: gold;
+	border-radius:0 .25em;
+	color: #500;
+	font-family: Verdana;
+	font-size: 1.5em;
+}
+
+input[type="submit"]:hover
+{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label
+{
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+.mensagem{
+		background:gold;
+		border-radius: .5em;
+		color:#000;
+		font-family: Verdana;
+		font-size: 1em;
+		padding:.5em;
+}
+
+estilização da tabela
+
+table
+{
+	border: .1em solid gold;
+	border-radius: 1em;
+	cursor: default;
+	font-family: Verdana;
+	font-size: .75em;
+	padding: .25em;
+	width:100%;
+}
+
+table td
+{
+	border: .1em solid #212121;
+	border-radius: .5em;
+	word-wrap: break-word;
+	text-align:center;
+}
+
+table tr
+{
+	background: orange;
+}
+
+table thead tr
+{
+	background: transparent;
+}
+
+table tr:nth-child(even)
+{
+		background: gold;
+}
+	*/*/
